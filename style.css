@@ -47,11 +47,11 @@
 
 .button{
 
-    background-color: #30B868;
+    background-color: #30b869d2;
     color: white;
     font-size: 16px;
     padding: 13px;
-    border: 1px solid;
+    border: 0px solid;
     border-radius: 5px;
     font-weight: 600 ;
 
@@ -61,4 +61,65 @@ button:hover {
   background-color: #2bce85c7;
   transition:0.3s ease;
 
+}
+
+#banner-section{
+    background-image: url("./assets/hero-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* width: 1600px;
+    height: 100%; */
+
+  margin: 92px auto ;
+   
+    
+   
+
+}
+
+.struc{
+    font-size: 72px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.815);
+    padding-top: 198px;
+}
+.Not{
+    font-size:72px ;
+    text-align: center;
+    color: #30b869d7;
+}
+
+/* SHarred Style P */
+
+p {
+
+    color: #ffffffc4;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    padding: 16px 295px;
+}
+
+#btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding-bottom: 184px;
+}
+#btn .button02{
+
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    padding: 13px;
+    border: 1px solid;
+    border-radius: 5px;
+    font-weight: 600 ;
+    
+}
+.button02:hover {
+    cursor: pointer;
+  background-color: #2bce85c7;
+  transition:0.3s ease;
 }
