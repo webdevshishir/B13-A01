@@ -32,6 +32,7 @@
     font-style: none;
     color: black;
    padding: 32px;
+   
 }
 .nav-item a:hover {
     cursor: pointer;
@@ -42,6 +43,10 @@
 
 
 }
+
+
+    
+  
 
 /* Sharred Button Style */
 
@@ -70,18 +75,31 @@ button:hover {
     /* width: 1600px;
     height: 100%; */
 
-  margin: 92px auto ;
+  margin:  auto ;
    
     
    
 
 }
+.early{
+ 
+     font-size: 16px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.815);
+    padding-top: 198px;
+  
+    color: #30b869d2;
+    border-radius: 15;
+    
+}
+
 
 .struc{
     font-size: 72px;
     text-align: center;
     color: rgba(255, 255, 255, 0.815);
-    padding-top: 198px;
+    padding-top: 16px;
+   
 }
 .Not{
     font-size:72px ;
@@ -97,7 +115,7 @@ p {
     font-size: 18px;
     line-height: 24px;
     text-align: center;
-    padding: 16px 295px;
+    padding: 16px ;
 }
 
 #btn {
@@ -107,15 +125,23 @@ p {
     gap: 40px;
     padding-bottom: 184px;
 }
+.play{
+    width: 18px;
+    padding: 20px auto ;
+}
+
+
 #btn .button02{
 
     background-color: transparent;
     color: white;
     font-size: 16px;
-    padding: 13px;
+    padding: 10px;
     border: 1px solid;
     border-radius: 5px;
     font-weight: 600 ;
+    text-align: center;
+    
     
 }
 .button02:hover {
@@ -123,3 +149,78 @@ p {
   background-color: #2bce85c7;
   transition:0.3s ease;
 }
+
+/* Main section */
+
+.card{
+ background-color: rgba(229, 231, 235, 1);    
+}
+#notes {
+background-color: rgba(229, 231, 235, 1);
+width: 100%;
+
+
+
+
+}
+.N {
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    text-align: center;
+    padding-top: 36px;
+    
+
+}
+
+.para{
+    color:#627382;
+    font-size: 16px;
+    padding-top: 16px;
+
+}
+
+.card-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 44px;
+    gap: 24px;
+
+}
+.cards{
+    /* border: 1px solid black; */
+    width: 300px;
+    height: 300px;
+    background-color: white;
+
+}
+.cards h5{
+    font-size: 24px;
+    text-align: center;
+    color: #001931;
+    padding-top: 16px;
+}
+
+
+.card-p{
+    color: #001931;
+    text-align: center;
+    padding-top: 16px;
+    font-size: 16px;
+    color: #627382;
+}
+.png{
+    color: red;
+    background-color: red;
+    align-items: center;
+    text-align: center;
+     border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    padding: 8px;
+    margin: auto 115px;
+    margin-top: 50px;
+
+}
+
